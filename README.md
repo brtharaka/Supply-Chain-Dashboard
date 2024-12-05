@@ -1,32 +1,70 @@
 # Supply Chain Dashboard
 
 ## Introduction
-The **Supply Chain Dashboard** is an interactive visualization created using Power BI. It provides insights into key metrics such as sales, order management, customer feedback, and shipping methods. This dashboard utilizes data from a comprehensive dataset representing supply chain activities, making it a powerful tool for optimizing operations and enhancing performance.
+The **Supply Chain Dashboard** is an interactive visualization created using Power BI. It provides insights into key metrics such as total sales, order quantities, car makers and models, customer feedback, and shipping methods. This dashboard helps stakeholders make data-driven decisions to optimize operations and improve performance.
 
 ---
 
 ## Features
+
 ### Page 1: Home
 - Overview of key metrics:
-  - Total sales.
-  - Total orders.
-  - Customer demographics and geographical distribution.
+  - **Count of Car Makers**: 54.
+  - **Count of Car Models**: 503.
+  - **Total Quantity Sold**: 1,512.
+  - **Total Sales**: $853.1M.
+- Central navigation links to explore:
+  - **[Sales Page](#page-2-sales)**
+  - **[Orders Page](#page-3-orders)**
+  - **[Customer View Page](#page-4-customer-view)**
+  
+  ![Home Page](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/main/Dashboard-1.jpg)
+
+---
 
 ### Page 2: Sales
 - Detailed analysis of sales performance:
   - Breakdown by regions (state and city).
-  - Top car models with quantities sold.
+  - Top-performing car models with quantities sold.
   - Year-wise and brand-specific sales trends.
+- Visual representation of total sales:
+  - Sales trends over time.
+  - Contributions of car makers and models to sales figures.
+  
+  ![Sales Page](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/main/Dashboard-2.jpg)
+
+---
 
 ### Page 3: Orders
 - Insights into orders:
-  - Shipping modes and their usage (e.g., Air, Truck, Standard Class).
-  - Quantity trends across time periods (year, quarter, and month).
+  - Distribution by shipping modes (e.g., Air, Truck, Standard Class).
+  - Trends in order quantities across different periods (year, quarter, month).
+  - Correlation between shipping methods and sales revenue.
+  
+  ![Orders Page](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/main/Dashboard-3.jpg)
+
+---
 
 ### Page 4: Customer View
 - Analysis of customer feedback:
-  - Sales grouped by feedback ratings (e.g., "Good", "Bad").
-  - Correlation between customer satisfaction and revenue.
+  - Revenue grouped by feedback ratings (e.g., "Good", "Very Bad").
+  - Insights into customer demographics and purchasing behavior.
+  - Links between customer satisfaction and total revenue.
+
+  ![Customer View Page](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/main/Dashboard-4.jpg)
+
+---
+
+## Key Metrics
+### General Statistics
+- **Count of Car Makers**: 54.
+- **Count of Car Models**: 503.
+- **Total Quantity Sold**: 1,512.
+- **Total Sales**: $853.1M.
+
+### Top Performers
+- **Top States by Sales**: Texas, California, Florida.
+- **Top Shipping Methods**: Air, Truck.
 
 ---
 
@@ -43,55 +81,21 @@ The **Supply Chain Dashboard** is an interactive visualization created using Pow
 - **Sales, Quantity, Discount**: Transactional data with sales figures and applied discounts.
 - **CustomerFeedback**: Ratings provided by customers.
 
-### Example Records
-| CarMaker  | CarModel       | Sales      | ShipMode       | CustomerFeedback |
-|-----------|----------------|------------|----------------|------------------|
-| Dodge     | Ram 2500       | $744,796.41 | Standard Class | Bad              |
-| Toyota    | Tundra         | $794,773.17 | Standard Class | Good             |
-| GMC       | Savana 1500    | $968,244.90 | Second Class   | Okay             |
-| Volkswagen| Cabriolet      | $942,213.82 | First Class    | Very Bad         |
-
 ---
 
-## Key Metrics
-- **Total Sales**: $853.1M.
-- **Total Orders**: 1,512.
-- **Top States**: Texas, California, Florida.
-- **Top Shipping Modes**: Air, Truck.
+## Navigation Links
+You can quickly navigate between dashboard pages:
+- **[Home](#page-1-home)**
+- **[Sales](#page-2-sales)**
+- **[Orders](#page-3-orders)**
+- **[Customer View](#page-4-customer-view)**
 
 ---
 
 ## Usage Instructions
 1. Open the Power BI file in **Power BI Desktop**.
 2. Navigate through the pages:
-   - **Home** for an overview.
-   - **Sales**, **Orders**, and **Customer View** for specific insights.
-3. Apply filters on each page to customize your analysis:
-   - **Time-based filters**: Year, Month, Quarter.
-   - **Category filters**: Shipping mode, Customer feedback, Car brand.
-
----
-
-## Screenshots
-
-### Page 1: Home
-![Page 1 Home]([images/page1_home.png](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/e636d55475f808db8327b09611e5b5e70b78577e/Dashboard-1.jpg))
-
-### Page 2: Sales
-![Page 2 Sales](images/page2_sales.png)
-
-### Page 3: Orders
-![Page 3 Orders](images/page3_orders.png)
-
-### Page 4: Customer View
-![Page 4 Customer View](images/page4_customer_view.png)
-
----
-
-## Slideshow
-
-```html
-<img src="images/page1_home.png" alt="Page 1 Home" width="800">
-<img src="images/page2_sales.png" alt="Page 2 Sales" width="800">
-<img src="images/page3_orders.png" alt="Page 3 Orders" width="800">
-<img src="images/page4_customer_view.png" alt="Page 4 Customer View" width="800">
+   - **[Home](#page-1-home)** for an overview.
+   - **[Sales](#page-2-sales)** for sales insights.
+   - **[Orders](#page-3-orders)** for order-related analysis.
+   - **[Customer View](#page-4-customer-view)** for customer feedback and behavior insights.
