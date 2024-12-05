@@ -75,7 +75,7 @@ The **Supply Chain Dashboard** is an interactive visualization created using Pow
 ## Screenshots
 
 ### Page 1: Home
-![Page 1 Home](images/page1_home.png)
+![Page 1 Home]([images/page1_home.png](https://github.com/brtharaka/Supply-Chain-Dashboard/blob/e636d55475f808db8327b09611e5b5e70b78577e/Dashboard-1.jpg))
 
 ### Page 2: Sales
 ![Page 2 Sales](images/page2_sales.png)
